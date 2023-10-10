@@ -13,6 +13,19 @@ const routes: Route[] = [
           await import("./pages/home-page.ts");
         },
       },
+      {
+        path: "tools",
+        component: "tools-page",
+        action: async () => {
+          await import("./pages/tools-page.ts");
+        },
+      },{
+        path: "howtos",
+        component: "howtos-page",
+        action: async () => {
+          await import("./pages/howtos-page.ts");
+        },
+      },
     ],
   },
 ];
