@@ -27,13 +27,14 @@
 } 
 */
 
-/* 
+
 :host,
 .sl-theme-dark {
-  your custom styles for the dark theme here 
-  vist https://codepen.io/claviska/full/QWveRgL for a color token generator
+  /* your custom styles for the dark theme here  */
+  /* vist https://codepen.io/claviska/full/QWveRgL for a color token generator */
+  --sl-color-border: var(--sl-color-gray-300);
 } 
-*/
+
 
 body {
   margin: 0;
