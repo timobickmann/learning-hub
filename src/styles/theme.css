@@ -16,6 +16,8 @@
   --sl-color-primary-800: var(--sl-color-gray-800);
   --sl-color-primary-900: var(--sl-color-gray-900);
   --sl-color-primary-950: var(--sl-color-gray-950);
+
+  --sl-color-border: var(--sl-color-gray-300);
 }
 
 /* 
@@ -24,17 +26,17 @@
 .sl-theme-light {
   your custom styles for the light theme here 
   vist https://codepen.io/claviska/full/QWveRgL for a color token generator
+  background-color: var(--sl-color-gray-50);
+
 } 
 */
-
 
 :host,
 .sl-theme-dark {
   /* your custom styles for the dark theme here  */
   /* vist https://codepen.io/claviska/full/QWveRgL for a color token generator */
-  --sl-color-border: var(--sl-color-gray-300);
+  background-color: var(--sl-color-gray-50);
 } 
-
 
 body {
   margin: 0;

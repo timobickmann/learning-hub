@@ -3,6 +3,7 @@ import "@shoelace-style/shoelace/dist/themes/dark.css";
 import "./styles/theme.css";
 
 import "./components/header-navigation.ts";
+import "./components/footer-bar.ts";
 
 import { LitElement, html, css } from "lit";
 import { customElement } from "lit/decorators.js";
@@ -23,8 +24,7 @@ export class MyAppElement extends LitElement {
 
     main {
       flex: 1;
-      margin-left: 5rem;
-      margin-right: 5rem;
+      margin: 2rem;
     }
   `;
 
@@ -37,6 +37,7 @@ export class MyAppElement extends LitElement {
       <main><slot></slot></main>
 
       <!-- footer -->
+      <footer-bar></footer-bar>
     `;
   }
 }

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Visual Studio Code",
+    "link": "https://code.visualstudio.com/",
+    "description": "A powerful, open-source code editor with a vast extension ecosystem for web development."
+  },
+  {
+    "name": "GitHub",
+    "link": "https://github.com/",
+    "description": "A web-based platform for version control, code collaboration, and project management."
+  },
+  {
+    "name": "Bootstrap",
+    "link": "https://getbootstrap.com/",
+    "description": "A popular CSS framework for building responsive and attractive web interfaces."
+  },
+  {
+    "name": "Adobe XD",
+    "link": "https://www.adobe.com/products/xd.html",
+    "description": "A design and prototyping tool for creating user interfaces and experiences."
+  },
+  {
+    "name": "WordPress",
+    "link": "https://wordpress.org/",
+    "description": "A widely-used content management system (CMS) for creating websites and blogs."
+  },
+  {
+    "name": "Google Analytics",
+    "link": "https://analytics.google.com/",
+    "description": "A web analytics service to track and analyze user behavior on your website."
+  },
+  {
+    "name": "Canva",
+    "link": "https://www.canva.com/",
+    "description": "An online graphic design tool for creating stunning visuals and graphics."
+  },
+  {
+    "name": "Figma",
+    "link": "https://www.figma.com/",
+    "description": "A collaborative design tool for creating user interfaces and interactive prototypes."
+  },
+  {
+    "name": "W3Schools",
+    "link": "https://www.w3schools.com/",
+    "description": "An online resource for learning web development and programming."
+  },
+  {
+    "name": "Firebase",
+    "link": "https://firebase.google.com/",
+    "description": "A comprehensive platform for building and managing web and mobile apps."
+  }
+]
