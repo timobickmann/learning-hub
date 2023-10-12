@@ -22,7 +22,7 @@ export class ToolsPageElement extends LitElement {
       }
 
       h1 {
-        font-size: var(--sl-font-size-3x-large);
+        font-size: 2rem;
       }
 
       .tool-cards {

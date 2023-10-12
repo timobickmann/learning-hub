@@ -17,7 +17,7 @@ export class HowtosPageElement extends LitElement {
         gap: 2rem;
       }
       h1 {
-        font-size: var(--sl-font-size-3x-large);
+        font-size: 2rem;
       }
     `,
   ];
