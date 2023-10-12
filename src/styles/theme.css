@@ -35,12 +35,9 @@
 .sl-theme-dark {
   /* your custom styles for the dark theme here  */
   /* vist https://codepen.io/claviska/full/QWveRgL for a color token generator */
-  background-color: var(--sl-color-gray-50);
-} 
+  background-color: hsl(240, 7%, 11%);
+}
 
 body {
   margin: 0;
 }
-
-
-

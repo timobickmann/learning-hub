@@ -29,7 +29,7 @@ export class ToolCardElement extends LitElement {
         gap: 1rem;
         padding: 1rem;
         border-radius: 0.5rem;
-        background-color: var(--sl-color-gray-100);
+        background-color: var(--sl-panel-background-color);
         box-shadow: var(--sl-shadow-large);
       }
     `,
