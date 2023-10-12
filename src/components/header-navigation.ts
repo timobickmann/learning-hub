@@ -15,27 +15,33 @@ export class HeaderNavigationElement extends LitElement {
     sharedStyles,
     css`
       :host {
-        border-bottom: 1px solid var(--sl-color-border);
+        border-bottom: 1px solid var(--border);
         padding-top: 8px;
         padding-bottom: 8px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
       }
 
       ul {
         list-style: none;
         display: flex;
         justify-content: center;
-        gap: 32px;
+      }
+
+      li {
+        padding: 8px 16px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+
+      li:hover {
+        background-color: var(--neutral);
       }
 
       a {
         text-decoration: none;
-        color: var(--sl-color-neutral-600);
-      }
-
-      a:hover {
-        color: var(--sl-color-neutral-700);
+        color: var(--base-content);
       }
 
       :host {

@@ -3,8 +3,6 @@ import { customElement } from "lit/decorators.js";
 
 import { sharedStyles } from "../styles/shared-styles.ts";
 
-import "@shoelace-style/shoelace/dist/components/icon/icon.js";
-
 @customElement("footer-bar")
 export class FooterBarElement extends LitElement {
   static styles = [
@@ -21,9 +19,6 @@ export class FooterBarElement extends LitElement {
         display: flex;
         justify-content: center;
       }
-      sl-icon {
-        color: var(--sl-color-red-500);
-      }
     `,
   ];
 
@@ -31,7 +26,7 @@ export class FooterBarElement extends LitElement {
     return html`
       <footer>
         <p>
-          Made with <sl-icon name="suit-heart-fill"></sl-icon> by
+          Made with <span>❤️</span> by
           <a target="_blank" href="https://github.com/timobickmann">Timo</a>
         </p>
       </footer>
