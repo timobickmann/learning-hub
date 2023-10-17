@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "lit";
 import { customElement } from "lit/decorators.js";
 
-import { sharedStyles } from "../styles/shared-styles.ts";
+import { sharedStyles } from "../css/shared-styles";
 
 import "@material/web/button/filled-button.js";
 
@@ -10,15 +10,13 @@ export class HomePageElement extends LitElement {
   static styles = [
     sharedStyles,
     css`
-
-    :host {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 2rem;
-    }
+      :host {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+      }
       h1 {
         font-size: 2rem;
       }
@@ -27,9 +25,8 @@ export class HomePageElement extends LitElement {
 
   render() {
     return html`
-        <h1>Home Page</h1>
-        <md-filled-button>Complete</md-filled-button>
-
+      <h1>Home Page</h1>
+      <md-filled-button>Material Design Button</md-filled-button>
     `;
   }
 }

@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "lit";
 import { customElement } from "lit/decorators.js";
 
-import { sharedStyles } from "../styles/shared-styles.ts";
+import { sharedStyles } from "../css/shared-styles";
 
 @customElement("howtos-page")
 export class HowtosPageElement extends LitElement {
@@ -9,7 +9,6 @@ export class HowtosPageElement extends LitElement {
     sharedStyles,
     css`
       :host {
-        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -23,8 +22,6 @@ export class HowtosPageElement extends LitElement {
   ];
 
   render() {
-    return html`
-      <h1>Howtos Page</h1>
-    `;
+    return html` <h1>Howtos Page</h1> `;
   }
 }

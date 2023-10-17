@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "lit";
 import { customElement } from "lit/decorators.js";
 
-import { sharedStyles } from "../styles/shared-styles.ts";
+import { sharedStyles } from "../css/shared-styles";
 
 @customElement("footer-bar")
 export class FooterBarElement extends LitElement {
@@ -15,7 +15,6 @@ export class FooterBarElement extends LitElement {
         gap: 0.25rem;
       }
       footer {
-        padding-bottom: 0.25rem;
         display: flex;
         justify-content: center;
       }

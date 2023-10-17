@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "lit";
 import { customElement, property } from "lit/decorators.js";
 
-import { sharedStyles } from "../styles/shared-styles.ts";
+import { sharedStyles } from "../css/shared-styles";
 
 interface ITool {
   name: string;
@@ -9,8 +9,8 @@ interface ITool {
   link: string;
 }
 
-@customElement("tool-card")
-export class ToolCardElement extends LitElement {
+@customElement("app-card")
+export class AppCardElement extends LitElement {
   @property({ type: Object }) tool: ITool = {
     name: "",
     description: "",
@@ -20,24 +20,22 @@ export class ToolCardElement extends LitElement {
   static styles = [
     sharedStyles,
     css`
-      .tool-card {
+      .card {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center; 
-        height: 100%;
-        gap: 1rem;
-        padding: 1rem;
-        border-radius: 0.5rem;
-        background-color: var(--neutral);
-        box-shadow: var(--shadow);
+        align-items: center;
+        padding: 1rem 1.5rem;
+        background-color: var(--md-sys-surface-container-highest);
+        border-radius: var(--border-radius);
+        box-shadow: 0px 1px 8px var(--md-sys-color-shadow);
       }
     `,
   ];
 
   render() {
     return html`
-      <div class="tool-card">
+      <div class="card">
         <h3>${this.tool.name}</h3>
         <p>${this.tool.description}</p>
         <a href="${this.tool.link}">Link</a>

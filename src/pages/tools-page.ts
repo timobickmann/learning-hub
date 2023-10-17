@@ -3,9 +3,9 @@ import toolsData from "../data/tools.json";
 import { LitElement, html, css } from "lit";
 import { customElement } from "lit/decorators.js";
 
-import { sharedStyles } from "../styles/shared-styles.ts";
+import { sharedStyles } from "../css/shared-styles";
 
-import "../components/tool-card.ts";
+import "../components/app-card.ts";
 
 @customElement("tools-page")
 export class ToolsPageElement extends LitElement {
@@ -13,7 +13,6 @@ export class ToolsPageElement extends LitElement {
     sharedStyles,
     css`
       :host {
-        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -37,9 +36,7 @@ export class ToolsPageElement extends LitElement {
     return html`
       <h1>Tools Page</h1>
       <div class="tool-cards">
-        ${toolsData.map(
-          (tool) => html` <tool-card .tool=${tool}></tool-card> `
-        )}
+        ${toolsData.map((tool) => html` <app-card .tool=${tool}></app-card> `)}
       </div>
     `;
   }
