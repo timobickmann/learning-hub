@@ -20,5 +20,23 @@ model User {
 model Tool {
   id        String   @id @default(uuid())
   name      String   @db.VarChar(255)
+  description String @db.VarChar(255)
+  link      String   @db.VarChar(255)
   createdAt DateTime @default(now())
+  categories CategoriesOnTools[]
+}
+
+model Category {
+  id        String   @id @default(uuid())
+  name      String   @db.VarChar(255)
+  tools    CategoriesOnTools[]
+}
+
+model CategoriesOnTools {
+  tool        Tool     @relation(fields: [toolId], references: [id]) 
+  toolId      String 
+  category    Category @relation(fields: [categoryId], references: [id])
+  categoryId  String
+
+  @@id([toolId, categoryId])
 }

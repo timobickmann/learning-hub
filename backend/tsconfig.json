@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "outDir": "dist",
-    "lib": ["esnext"],
-    "esModuleInterop": true
+    "outDir": "./dist",
+    "lib": ["ESNext"],
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "target": "ESNext",
+    "moduleResolution": "NodeNext",
   }
 }
