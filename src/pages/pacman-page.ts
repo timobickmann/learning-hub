@@ -41,7 +41,8 @@ export class PacmanPageElement extends LitElement {
         border: 16px solid;
         border-radius: 50%;
         border-color: yellow #0000 yellow yellow;
-        animation: move 5s step-end infinite, rotate 5s linear infinite;
+        animation: move 5s step-end infinite, rotate 5s linear infinite,
+          eat 0.6s step-end infinite;
       }
 
       .inner-border {
@@ -62,6 +63,16 @@ export class PacmanPageElement extends LitElement {
         top: 42px;
         width: calc(100% - 84px);
         height: calc(100% - 84px);
+      }
+
+      @keyframes eat {
+        0%,
+        100% {
+          border-color: yellow #0000 yellow yellow;
+        }
+        50% {
+          border-color: yellow yellow yellow yellow;
+        }
       }
 
       @keyframes move {
