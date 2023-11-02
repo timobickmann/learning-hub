@@ -8,7 +8,7 @@ export class HeaderNavigationElement extends LitElement {
   @property({ type: Array }) menuItems = [
     { label: "Home", path: "/" },
     { label: "Tools", path: "/tools" },
-    { label: "How-Tos", path: "/howtos" },
+    { label: "WIP", path: "/wip" },
   ];
 
   static styles = [
@@ -34,7 +34,7 @@ export class HeaderNavigationElement extends LitElement {
 
       a {
         text-decoration: none;
-        color: var(--md-sys-color-on-background);
+        color: var(--neutral-foreground);
       }
 
       .icon-container {
@@ -44,12 +44,12 @@ export class HeaderNavigationElement extends LitElement {
       }
 
       .icon {
-        fill: var(--md-sys-color-on-background);
+        fill: var(--neutral-foreground);
         height: 24px;
       }
 
       .icon:hover {
-        fill: var(--md-sys-color-primary);
+        fill: var(--primary);
         transform: scale(1.1);
       }
 

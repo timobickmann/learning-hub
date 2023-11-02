@@ -20,10 +20,10 @@ const routes: Route[] = [
           await import("./pages/tools-page.ts");
         },
       },{
-        path: "howtos",
-        component: "howtos-page",
+        path: "wip",
+        component: "wip-page",
         action: async () => {
-          await import("./pages/howtos-page.ts");
+          await import("./pages/wip-page.ts");
         },
       },
     ],

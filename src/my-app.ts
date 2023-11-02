@@ -1,4 +1,4 @@
-import "./css/theme.css";
+import "./css/styles.css";
 import { sharedStyles } from "./css/shared-styles";
 
 import "./components/header-navigation.ts";
@@ -17,21 +17,15 @@ export class MyAppElement extends LitElement {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-color: var(--md-ref-palette-neutral95);
-        color: var(--md-sys-color-on-background);
-      }
-
-      @media (prefers-color-scheme: dark) {
-        :host {
-          background-color: var(--md-ref-palette-neutral20);
-        }
+        background-color: var(--background);
+        color: var(--neutral-foreground);
       }
 
       main {
         flex-grow: 1;
         padding-bottom: 2rem;
-        background-color: var(--md-sys-color-surface);
-        border-radius: 32px;
+        background-color: var(--neutral);
+        border-radius: calc(var(--border-radius) * 2);
         overflow-y: auto;
         margin-left: 2rem;
         margin-right: 2rem;

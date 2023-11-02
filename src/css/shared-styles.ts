@@ -11,13 +11,7 @@ export const sharedStyles = css`
     visibility: hidden;
   }
 
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
   a {
-    color: var(--md-sys-color-primary);
+    color: var(--link);
   }
 `;

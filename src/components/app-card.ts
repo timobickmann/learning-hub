@@ -27,9 +27,9 @@ export class AppCardElement extends LitElement {
         justify-content: space-between;
         align-items: center;
         padding: 1rem 1.5rem;
-        background-color: var(--md-sys-surface-container-highest);
+        background-color: var(--neutral);
         border-radius: var(--border-radius);
-        box-shadow: 0px 1px 8px var(--md-sys-color-shadow);
+        box-shadow: var(--shadow);
       }
     `,
   ];
