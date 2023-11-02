@@ -34,6 +34,13 @@ const routes: Route[] = [
           await import("./pages/pacman-page.ts");
         },
       },
+      {
+        path: "components",
+        component: "components-page",
+        action: async () => {
+          await import("./pages/components-page.ts");
+        },
+      },
     ],
   },
 ];

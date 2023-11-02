@@ -29,19 +29,6 @@ export class ChuckNorrisPageElement extends LitElement {
       h1 {
         font-size: 2rem;
       }
-
-      button {
-        padding: 8px 16px;
-        border-radius: var(--border-radius);
-        cursor: pointer;
-        background-color: var(--primary);
-        color: var(--primary-foreground);
-        border: none;
-      }
-
-      button:hover {
-        background-color: var(--primary-hover);
-      }
     `,
   ];
 
@@ -64,7 +51,7 @@ export class ChuckNorrisPageElement extends LitElement {
         ? html` <p>${this.chuckNorrisJoke.value}</p> `
         : html`<p>Loading Chuck Norris joke...</p>`}
 
-      <button @click="${this.fetchJoke}">Get New Joke</button>
+      <app-button @click="${this.fetchJoke}">Get New Joke</app-button>
     `;
   }
 }

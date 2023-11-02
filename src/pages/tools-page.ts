@@ -5,8 +5,6 @@ import { customElement } from "lit/decorators.js";
 
 import { sharedStyles } from "../css/shared-styles";
 
-import "../components/app-card.ts";
-
 @customElement("tools-page")
 export class ToolsPageElement extends LitElement {
   static styles = [

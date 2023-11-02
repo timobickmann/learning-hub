@@ -1,8 +1,7 @@
 import "./css/styles.css";
 import { sharedStyles } from "./css/shared-styles";
 
-import "./components/header-navigation.ts";
-import "./components/footer-bar.ts";
+import "./components/index";
 
 import { LitElement, html, css } from "lit";
 import { customElement } from "lit/decorators.js";

@@ -10,6 +10,7 @@ export class HeaderNavigationElement extends LitElement {
     { label: "Tools", path: "/tools" },
     { label: "Chuck Norris", path: "/chucknorris" },
     { label: "Pacman", path: "/pacman" },
+    { label: "Components", path: "/components" },
   ];
 
   static styles = [
