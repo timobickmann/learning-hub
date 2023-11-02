@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import "./colors.css";
+@import "./tokens.css";
 
 :root {
   font-family: "Inter", sans-serif;

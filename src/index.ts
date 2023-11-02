@@ -19,11 +19,19 @@ const routes: Route[] = [
         action: async () => {
           await import("./pages/tools-page.ts");
         },
-      },{
-        path: "wip",
-        component: "wip-page",
+      },
+      {
+        path: "chucknorris",
+        component: "chucknorris-page",
         action: async () => {
-          await import("./pages/wip-page.ts");
+          await import("./pages/chucknorris-page.ts");
+        },
+      },
+      {
+        path: "pacman",
+        component: "pacman-page",
+        action: async () => {
+          await import("./pages/pacman-page.ts");
         },
       },
     ],

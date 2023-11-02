@@ -3,8 +3,8 @@ import { customElement } from "lit/decorators.js";
 
 import { sharedStyles } from "../css/shared-styles";
 
-@customElement("wip-page")
-export class WIPPageElement extends LitElement {
+@customElement("pacman-page")
+export class PacmanPageElement extends LitElement {
   static styles = [
     sharedStyles,
     css`
@@ -104,8 +104,7 @@ export class WIPPageElement extends LitElement {
 
   render() {
     return html`
-      <h1>WIP Page</h1>
-      <p>Hier gibts noch nix zu sehen!</p>
+      <h1>Pacman</h1>
       <div class="pacman-container">
         <div class="pacman-field">
           <span class="pacman"></span>

@@ -8,7 +8,8 @@ export class HeaderNavigationElement extends LitElement {
   @property({ type: Array }) menuItems = [
     { label: "Home", path: "/" },
     { label: "Tools", path: "/tools" },
-    { label: "WIP", path: "/wip" },
+    { label: "Chuck Norris", path: "/chucknorris" },
+    { label: "Pacman", path: "/pacman" },
   ];
 
   static styles = [

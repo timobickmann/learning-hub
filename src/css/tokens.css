@@ -3,12 +3,12 @@ html {
   --neutral: #c1c1c1;
   --neutral-foreground: #000000;
   --primary: #efc048;
+  --primary-hover: #edb032;
   --primary-foreground: #000000;
   --border: #676767;
   --border-radius: 16px;
   --shadow: 0 1px 8px #000000;
   --link: var(--primary);
-
 }
 
 html[theme="dark"] {
