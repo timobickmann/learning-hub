@@ -14,4 +14,8 @@ export const sharedStyles = css`
   a {
     color: var(--link);
   }
+
+  a:hover {
+    color: var(--link-hover);
+  }
 `;

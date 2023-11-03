@@ -1,14 +1,15 @@
 html {
-  --background: #e0e0e0;
-  --neutral: #c1c1c1;
-  --neutral-foreground: #000000;
-  --primary: #efc048;
-  --primary-hover: #edb032;
+  --background: #bebebe;
+  --neutral: rgb(217, 217, 217);
+  --neutral-foreground: #1b1b1b;
+  --primary: #dcae3b;
+  --primary-hover: #d99f2c;
   --primary-foreground: #000000;
   --border: #676767;
   --border-radius: 16px;
   --shadow: 0 1px 8px #000000;
   --link: var(--primary);
+  --link-hover: var(--primary-hover);
 }
 
 html[theme="dark"] {

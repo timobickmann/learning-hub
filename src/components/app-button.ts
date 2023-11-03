@@ -18,6 +18,12 @@ export class AppButtonElement extends LitElement {
         cursor: pointer;
         border: none;
         background-color: transparent;
+        transition: 0.25s;
+      }
+
+      button:hover {
+        transform: scale(1.02);
+        transition: 0s;
       }
 
       :host([variant="default"]) button {
@@ -46,7 +52,6 @@ export class AppButtonElement extends LitElement {
       :host([variant="text"]) button:hover {
         color: var(--primary-hover);
       }
-
     `,
   ];
 

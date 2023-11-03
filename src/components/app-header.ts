@@ -3,8 +3,8 @@ import { customElement, property } from "lit/decorators.js";
 
 import { sharedStyles } from "../css/shared-styles";
 
-@customElement("header-navigation")
-export class HeaderNavigationElement extends LitElement {
+@customElement("app-header")
+export class AppHeaderElement extends LitElement {
   @property({ type: Array }) menuItems = [
     { label: "Home", path: "/" },
     { label: "Tools", path: "/tools" },

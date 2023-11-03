@@ -3,8 +3,8 @@ import { customElement } from "lit/decorators.js";
 
 import { sharedStyles } from "../css/shared-styles";
 
-@customElement("footer-bar")
-export class FooterBarElement extends LitElement {
+@customElement("app-footer")
+export class AppFooterElement extends LitElement {
   static styles = [
     sharedStyles,
     css`

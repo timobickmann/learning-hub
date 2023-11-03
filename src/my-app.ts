@@ -37,13 +37,13 @@ export class MyAppElement extends LitElement {
   render() {
     return html`
       <!-- header -->
-      <header-navigation></header-navigation>
+      <app-header></app-header>
 
       <!-- main content -->
       <main><slot></slot></main>
 
       <!-- footer -->
-      <footer-bar></footer-bar>
+      <app-footer></app-footer>
     `;
   }
 }
