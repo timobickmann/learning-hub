@@ -1,7 +1,7 @@
 html {
-  --background: #bebebe;
-  --neutral: rgb(217, 217, 217);
-  --neutral-foreground: #1b1b1b;
+  --background: #32302a;
+  --neutral: #1d1b17;
+  --neutral-foreground: #e9e1d9;
   --primary: #dcae3b;
   --primary-hover: #d99f2c;
   --primary-foreground: #000000;
@@ -12,8 +12,3 @@ html {
   --link-hover: var(--primary-hover);
 }
 
-html[theme="dark"] {
-  --background: #32302a;
-  --neutral: #1d1b17;
-  --neutral-foreground: #e9e1d9;
-}
