@@ -32,8 +32,10 @@ export class ToolsPageElement extends LitElement {
 
   render() {
     return html`
-      <h1>Tools Page</h1>
+      <h1>Tools Page</h1> 
+      <p>A random list of tools that is definetely not gpt generated.</p>
       <div class="tool-cards">
+       
         ${toolsData.map((tool) => html` <app-card .tool=${tool}></app-card> `)}
       </div>
     `;

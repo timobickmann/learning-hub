@@ -24,6 +24,10 @@ export class HomePageElement extends LitElement {
   render() {
     return html`
       <h1>Home Page</h1>
+
+      <p>Go get some funny Chuck Norris jokes at <a href="/chucknorris">/chucknorris</a>!</p>
+
+      <p>Sorry for the ugly scrollbar btw. Just get a Mac to make it look better.</p>
     `;
   }
 }

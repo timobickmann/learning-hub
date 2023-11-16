@@ -115,7 +115,7 @@ export class PacmanPageElement extends LitElement {
 
   render() {
     return html`
-      <h1>Pacman</h1>
+      <h1>A lonely Pacman.</h1>
       <div class="pacman-container">
         <div class="pacman-field">
           <span class="pacman"></span>

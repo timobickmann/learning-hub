@@ -36,7 +36,7 @@ export class ComponentsPageElement extends LitElement {
       <h1>Components Testing</h1>
       <div>
         <app-button>Test Button Default</app-button>
-        <app-button variant="outlined">Test Button Primary</app-button>
+        <app-button variant="outlined">Test Button Outlined</app-button>
         <app-button variant="text">Test Button Text</app-button>
       </div>
     `;
